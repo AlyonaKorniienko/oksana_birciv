@@ -1,0 +1,45 @@
+/* -------------------------------------------------------------------------- */
+/*                                    HEDER                                   */
+/* -------------------------------------------------------------------------- */
+
+.header {
+  position: relative;
+  top: 0;
+  left: 0;
+  background-color: $semi-light-bg-cl;
+}
+
+.header__container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: flex-end;
+
+  background-color: $semi-light-bg-cl;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu__list {
+  display: flex;
+}
+// .menu__item {
+// }
+
+.menu__link {
+  display: inline-block;
+  padding: 20px 0;
+
+  color: $title-cl;
+}
+
+.contacts {
+  display: flex;
+}
+// .contacts__item {
+// }
+// .contacts_link {
+// }
