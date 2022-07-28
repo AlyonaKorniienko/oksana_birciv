@@ -1,0 +1,58 @@
+/* -------------------------------------------------------------------------- */
+/*                             ABOUT start                            */
+/* -------------------------------------------------------------------------- */
+
+// .about {
+// }
+.about__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+}
+// .about__item {
+// }
+
+.about__card {
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  @media screen and (min-width: 480px) {
+    max-width: 450px;
+  }
+
+  @media screen and (min-width: 768px) {
+    max-width: 202px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    max-width: 356px;
+  }
+}
+
+// .about__img {
+// }
+
+.about__decsr {
+  padding: 60px 15px;
+}
+.about__text {
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-align: center;
+
+  &::before {
+    content: '';
+    display: inline-block;
+    width: 50px;
+    height: 2px;
+    background-color: $title-cl;
+    border-radius: 2px;
+
+    position: absolute;
+    top: -20px;
+    left: calc(50% - 25px);
+  }
+}

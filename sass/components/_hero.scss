@@ -1,0 +1,72 @@
+/*-------------------------------------------------------------------------- */
+/*                             HERO start                            */
+/* -------------------------------------------------------------------------- */
+// .hero-img-wrapper {
+//   padding: 75px, 15px, 15px, 15px;
+// }
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  //   border: 15px;
+  //   border-color: #fff;
+  padding-top: 90px;
+  padding-bottom: 60px;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+    url('../images/bd_test.jpg');
+  background-position: center;
+  background-size: cover;
+
+  @media screen and (min-width: 768px) {
+    padding-top: 150px;
+    padding-bottom: 60px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 150px;
+    padding-bottom: 90px;
+  }
+}
+
+.hero-content {
+  margin: 0 auto;
+  width: 290px;
+  text-align: center;
+
+  @media screen and (min-width: 480px) {
+    width: 450px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 450px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 650px;
+  }
+}
+
+.hero-title {
+  font-family: 'Tenor Sans', sans-serif;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+
+  color: $title-cl;
+
+  margin-bottom: 20px;
+
+  @media screen and (min-width: 480px) {
+    font-size: 36px;
+  }
+
+  @media screen and (min-width: 768px) {
+    font-size: 48px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 48px;
+  }
+}

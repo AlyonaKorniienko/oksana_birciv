@@ -10,37 +10,60 @@ body {
   letter-spacing: 0.03em;
 }
 
-.section {
-  padding-top: 30px;
-  padding-bottom: 30px;
+// .section {
 
-  @media screen and (min-width: 768px) {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
+// }
 
-  @media screen and (min-width: 1200px) {
-    padding-top: 90px;
-    padding-bottom: 90px;
+.section-title {
+  position: relative;
+  font-family: 'Tenor Sans', sans-serif;
+  font-style: normal;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: $title-cl;
+  margin-bottom: 60px;
+
+  &::after {
+    content: '';
+    display: inline-block;
+    width: 50px;
+    height: 2px;
+    background-color: $title-cl;
+    border-radius: 2px;
+
+    position: absolute;
+    bottom: -20px;
+    left: calc(50% - 25px);
   }
 }
 
 .container {
+  padding-top: 30px;
+  padding-bottom: 30px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
 
-  @media screen and (min-width: 480px) {
-    width: 480px;
-  }
+  max-width: 480px;
+
+  // box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
   @media screen and (min-width: 768px) {
-    width: 768px;
+    max-width: 768px;
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
 
   @media screen and (min-width: 1200px) {
-    width: 1200px;
+    max-width: 1200px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+  &--white {
+    background-color: #fff;
   }
 
   &--light {
@@ -54,4 +77,8 @@ body {
   &--dark {
     background-color: $dark-bg-cl;
   }
+}
+
+.section-text {
+  margin-bottom: 20px;
 }
