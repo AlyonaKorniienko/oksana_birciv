@@ -11,6 +11,7 @@
   justify-content: center;
   //   border: 15px;
   //   border-color: #fff;
+  height: 100vh;
   padding-top: 90px;
   padding-bottom: 60px;
   background-image: linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
@@ -26,6 +27,7 @@
   @media screen and (min-width: 1200px) {
     padding-top: 150px;
     padding-bottom: 90px;
+    height: 80vh;
   }
 }
 
@@ -69,4 +71,8 @@
   @media screen and (min-width: 1200px) {
     font-size: 48px;
   }
+}
+
+.hero-subtitle {
+  font-size: 20px;
 }

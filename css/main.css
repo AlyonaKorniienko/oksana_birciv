@@ -433,6 +433,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  height: 100vh;
   padding-top: 90px;
   padding-bottom: 60px;
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.5))), url("../images/bd_test.jpg");
@@ -452,6 +453,7 @@ body {
   .hero-container {
     padding-top: 150px;
     padding-bottom: 90px;
+    height: 80vh;
   }
 }
 
@@ -505,6 +507,10 @@ body {
   .hero-title {
     font-size: 48px;
   }
+}
+
+.hero-subtitle {
+  font-size: 20px;
 }
 
 /* -------------------------------------------------------------------------- */
