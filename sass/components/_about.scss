@@ -34,6 +34,7 @@
 
 .about__decsr {
   padding: 60px 15px;
+  text-align: center;
 }
 .about__text {
   position: relative;
@@ -42,6 +43,8 @@
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
 
   &::before {
     content: '';
