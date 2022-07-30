@@ -12,380 +12,390 @@
     />
     <!-- ----------------------- Slider start ------------------------ -->
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+      integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+      integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <!-- ------------------------- Custom styles start ------------------------- -->
     <link rel="stylesheet" href="./css/main.min.css" />
-
-    
 
     <!-- ----------------------------- Fonts start ----------------------------- -->
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500&family=Tenor+Sans&display=swap"
       rel="stylesheet"
     />
-    
-  <body></body>
-</html>
+  </head>
 
-<body>
-  <!-- ----------------------------------------------------------------------- -->
-  <!--                                 HEADER                                  -->
-  <!-- ----------------------------------------------------------------------- -->
-  <header class="header">
-    <div class="container header__container" data-header>
-      <nav class="menu">
-        <ul class="menu__list">
-          <!-- <li class="menu__item"><a class="menu__link" href="#1">Услуги</a></li> -->
-          <li class="menu__item"><a class="menu__link" href="#3">Услуги и цены</a></li>
-          <li class="menu__item"><a class="menu__link" href="#4">Примеры работ</a></li>
-          <li class="menu__item"><a class="menu__link" href="./shop.html">Магазин</a></li>
+  <body>
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                                 HEADER                                  -->
+    <!-- ----------------------------------------------------------------------- -->
+    <header class="header">
+      <div class="container header__container" data-header>
+        <nav class="menu">
+          <ul class="menu__list">
+            <!-- <li class="menu__item"><a class="menu__link" href="#1">Услуги</a></li> -->
+            <li class="menu__item"><a class="menu__link" href="#3">Услуги и цены</a></li>
+            <li class="menu__item"><a class="menu__link" href="#4">Примеры работ</a></li>
+            <li class="menu__item"><a class="menu__link" href="./shop.html">Магазин</a></li>
+          </ul>
+        </nav>
+        <ul class="contacts">
+          <li class="contacts__item"><a class="contacts_link" href="">38 099 999 99 99</a></li>
         </ul>
-      </nav>
-      <ul class="contacts">
-        <li class="contacts__item"><a class="contacts_link" href="">38 099 999 99 99</a></li>
-      </ul>
-    </div>
-    <button type="button" class="mobile-open__btn">
-      <svg class="mobile-open__icon" width="40" height="40">
-        <use href="./images/icons.svg#icon-menu-open"></use>
-      </svg>
-    </button>
-    <!-- ----------------------------- Mobile Menu ----------------------------- -->
-    <div class="mobile-menu mobile--is-hidden">
-      <button type="button" class="mobile-close__btn">
-        <svg mobile-close="mobile-close__icon" width="40" height="40">
-          <use href="./images/icons.svg#icon-menu-close"></use>
+      </div>
+      <button type="button" class="mobile-open__btn">
+        <svg class="mobile-open__icon" width="40" height="40">
+          <use href="./images/icons.svg#icon-menu-open"></use>
         </svg>
       </button>
-      <div class="container__mobile-menu">
-        <ul class="mobile-menu__nav">
-          <li class="nav__item">
-            <a href="#1" class="nav__link nav__link--current" data-header></a>Главная</a>
-          </li>
-          <li class="nav__item">
-            <a href="#3" class="nav__link" data-header>Услуги и цены</a>
-          </li>
-          <li class="nav__item">
-            <a href="#4" class="nav__link" data-header>Примеры работ</a>
-          </li>
-          <li class="nav__item"><a href="./shop.html" class="nav__link" data-header>Магазин</a></li>
-        </ul>
-        <div class="mobile-menu__bottom">
-          <ul class="mobile-menu__contact">
-            <li class="contact__item">
-              <a href="tel:+380999999999" class="contact__link">38 099 999 99 99</a>
+      <!-- ----------------------------- Mobile Menu ----------------------------- -->
+      <div class="mobile-menu mobile--is-hidden">
+        <button type="button" class="mobile-close__btn">
+          <svg class="mobile-close__icon" width="40" height="40">
+            <use href="./images/icons.svg#icon-menu-close"></use>
+          </svg>
+        </button>
+        <div class="container__mobile-menu">
+          <ul class="mobile-menu__nav">
+            <li class="nav__item">
+              <a href="#1" class="nav__link nav__link--current">Главная</a>
             </li>
-            <li class="contact__item">
-              <a href="" class="contact__link">email@email.com</a>
+            <li class="nav__item">
+              <a href="#3" class="nav__link" data-header>Услуги и цены</a>
             </li>
-          </ul>
-          <ul class="mobile-menu__social">
-            <li class="mobile-social__item">
-              <a class="mobile-social__link">Instagram</a>
+            <li class="nav__item">
+              <a href="#4" class="nav__link" data-header>Примеры работ</a>
             </li>
-            <li class="mobile-social__item">
-              <a class="mobile-social__link">Facebook</a>
-            </li>
-            <li class="mobile-social__item">
-              <a class="mobile-social__link">Viber</a>
-            </li>
-            <li class="mobile-social__item">
-              <a class="mobile-social__link">Telegram</a>
+            <li class="nav__item">
+              <a href="./shop.html" class="nav__link" data-header>Магазин</a>
             </li>
           </ul>
-        </div>
-      </div>
-    </div>
-  </header>
-
-  <main>
-    <!-- ----------------------------------------------------------------------- -->
-    <!--                                  HERO                                   -->
-    <!-- ----------------------------------------------------------------------- -->
-    <section class="section">
-      <div class="container hero-container">
-        <div class="hero-img-wrapper">
-          <div class="hero-content">
-            <h1 class="hero-title">Оксана Бирцив</h1>
-            <h2 class="section-title hero-subtitle">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, omnis.
-            </h2>
-            <button data-modal-open class="button" type="button">Записатся на услугу</button>
+          <div class="mobile-menu__bottom">
+            <ul class="mobile-menu__contact">
+              <li class="contact__item">
+                <a href="tel:+380999999999" class="contact__link">38 099 999 99 99</a>
+              </li>
+              <li class="contact__item">
+                <a href="" class="contact__link">email@email.com</a>
+              </li>
+            </ul>
+            <ul class="mobile-menu__social">
+              <li class="mobile-social__item">
+                <a class="mobile-social__link">Instagram</a>
+              </li>
+              <li class="mobile-social__item">
+                <a class="mobile-social__link">Facebook</a>
+              </li>
+              <li class="mobile-social__item">
+                <a class="mobile-social__link">Viber</a>
+              </li>
+              <li class="mobile-social__item">
+                <a class="mobile-social__link">Telegram</a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
-    </section>
+    </header>
 
-    <!-- ----------------------------------------------------------------------- -->
-    <!--                                  ABOUT                                  -->
-    <!-- ----------------------------------------------------------------------- -->
-    <section id="1" class="section">
-      <div class="container container--light about">
-        <h2 class="section-title">Lorem, ipsum dolor.</h2>
-        <ul class="about__list">
-          <li class="about__item">
-            <div class="about__card">
-              <img
-                class="about__img"
-                src="./images/img_about.png"
-                alt=""
-                width="450"
-                height="450"
-              />
-              <div class="about__decsr">
-                <p class="about__text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis nulla rem
-                </p>
-              </div>
+    <main>
+      <!-- ----------------------------------------------------------------------- -->
+      <!--                                  HERO                                   -->
+      <!-- ----------------------------------------------------------------------- -->
+      <section class="section">
+        <div class="container hero-container">
+          <div class="hero-img-wrapper">
+            <div class="hero-content">
+              <h1 class="hero-title">Оксана Бирцив</h1>
+              <h2 class="section-title hero-subtitle">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, omnis.
+              </h2>
+              <button data-modal-open class="button" type="button">Записатся на услугу</button>
             </div>
-          </li>
-          <li class="about__item">
-            <div class="about__card">
-              <img
-                class="about__img"
-                src="./images/img_about.png"
-                alt=""
-                width="450"
-                height="450"
-              />
-              <div class="about__decsr">
-                <p class="about__text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis nulla rem
-                </p>
-              </div>
-            </div>
-          </li>
-          <li class="about__item">
-            <div class="about__card">
-              <img
-                class="about__img"
-                src="./images/img_about.png"
-                alt=""
-                width="450"
-                height="450"
-              />
-              <div class="about__decsr">
-                <p class="about__text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis nulla rem
-                </p>
-              </div>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-    <!-- ----------------------------------------------------------------------- -->
-    <!--                                  SHOP                                   -->
-    <!-- ----------------------------------------------------------------------- -->
-    <section id="2" class="section shop__section">
-      <div class="container container--white shop">
-        <img class="shop__img" src="./images/shop.png" alt="" width="350" />
-        <div class="shop__wrap">
-          <h2 class="section-title">Lorem ipsum dolor sit amet.</h2>
-          <p class="section-text">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, eius.
-          </p>
-          <button class="button" type="button">Перейти в магазин</button>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- ----------------------------------------------------------------------- -->
-    <!--                                  PRICE                                  -->
-    <!-- ----------------------------------------------------------------------- -->
-
-<!-- Секція Price -->
-			<section id="3" class="section">
-				<div class="container price container--light">
-					<h2 class="section-title">Услуги и цены</h2>
-					<ul class="price-list">
-						<li class="price-list-item">
-              <span class="price-inner-title" >Брови</span>
-							<ul class="price-inner-list">
-								<li class="price-inner-item">
-									<span class="price-inner-desc">Моделирование и <br>окрашивание</span>
-									<span class="price-inner-cost">250 грн</span>
-								</li>
-								<li class="price-inner-item">
-									<span class="price-inner-desc">Моделирование без <br>окрашивания</span>
-									<span class="price-inner-cost">200 грн</span>
-								</li>
-								<li class="price-inner-item">
-									<span class="price-inner-desc">Ламинирование и <br>окрашивание</span>
-									<span class="price-inner-cost">400 грн</span>
-                </li>
-                	<li class="price-inner-item">
-									<span class="price-inner-desc">Ламинирование без <br>окрашивания</span>
-									<span class="price-inner-cost">300 грн</span>
-                </li>
-							</ul>
-              <span class="price-inner-title">Ресницы</span>
-							<ul class="price-inner-list">
-								<li class="price-inner-item">
-									<span class="price-inner-desc">Ламинирование и <br>окрашивание</span>
-									<span class="price-inner-cost">500 грн</span>
-								</li>
-								<li class="price-inner-item">
-									<span class="price-inner-desc">Окрашивание</span>
-									<span class="price-inner-cost">80 грн</span>
-                </li>
-							</ul>
-						</li>
-						<li class="price-list-item">
-              <span class="price-inner-title">Дополнительные услуги</span>
-							<ul class="price-inner-list">
-								<li class="price-inner-item">
-									<span class="price-inner-desc">Парафинотерапия ручек</span>
-									<span class="price-inner-cost">100 грн</span>
-								</li>
-								<li class="price-inner-item">
-									<span class="price-inner-desc">Удаление волос сахарной пастой <br>в области верхней губы (усики)</span>
-									<span class="price-inner-cost">50 грн</span>
-								</li>
-                	</ul>
-                  <span class="price-inner-title">Скидки</span>
-							<ul class="price-inner-list">
-								<li class="price-inner-item">
-									<span class="price-inner-desc">ко Дню Рождения</span>
-									<span class="price-inner-cost">10%</span>
-								</li>
-								<li class="price-inner-item">
-									<span class="price-inner-desc">отметка в Stories</span>
-									<span class="price-inner-cost">5%</span>
-								</li>
-							</ul>
-						</li>
-					</ul>
-				</div>
-			</section> 
-
-
-    
-    <!-- ----------------------------------------------------------------------- -->
-    <!--                            ORDER                             -->
-    <!-- ----------------------------------------------------------------------- -->
-    <section class="section">
-      <div class="container container--semi-light order">
-        <h2 class="section-title">Lorem ipsum dolor sit amet.</h2>
-        <button data-modal-open class="button button--dark" type="button">Записатся на услугу</button>
-      </div>
-    </section>
-
-    <!-- ----------------------------------------------------------------------- -->
-    <!--                                  PORTFOLIO                                  -->
-    <!-- ----------------------------------------------------------------------- -->
-    <section id="4" class="section">
-      <div class="container container--light">
-        <h2 class="section-title">Примеры работ</h2>
-        <div class="portfolio__wrap">
-          <ul class="portfolio__list">
-            <li class="portfolio__item">
-              <img
-                class="portfolio__img"
-                src="./images/portfolio1.png"
-                alt=""
-                width="350"
-                height="350"
-              />
+      <!-- ----------------------------------------------------------------------- -->
+      <!--                                  ABOUT                                  -->
+      <!-- ----------------------------------------------------------------------- -->
+      <section id="1" class="section">
+        <div class="container container--light about">
+          <h2 class="section-title">Lorem, ipsum dolor.</h2>
+          <ul class="about__list">
+            <li class="about__item">
+              <div class="about__card">
+                <img
+                  class="about__img"
+                  src="./images/img_about.png"
+                  alt=""
+                  width="450"
+                  height="450"
+                />
+                <div class="about__decsr">
+                  <p class="about__text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis nulla rem
+                  </p>
+                </div>
+              </div>
             </li>
-            
-            <li class="portfolio__item">
-              <img
-                class="portfolio__img"
-                src="./images/portfolio1.png"
-                alt=""
-                width="350"
-                height="350"
-              />
-            </li><li class="portfolio__item">
-              <img
-                class="portfolio__img"
-                src="./images/portfolio1.png"
-                alt=""
-                width="350"
-                height="350"
-              />
+            <li class="about__item">
+              <div class="about__card">
+                <img
+                  class="about__img"
+                  src="./images/img_about.png"
+                  alt=""
+                  width="450"
+                  height="450"
+                />
+                <div class="about__decsr">
+                  <p class="about__text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis nulla rem
+                  </p>
+                </div>
+              </div>
             </li>
-            <li class="portfolio__item">
-              <img
-                class="portfolio__img"
-                src="./images/portfolio2.png"
-                alt=""
-                width="350"
-                height="350"
-              />
+            <li class="about__item">
+              <div class="about__card">
+                <img
+                  class="about__img"
+                  src="./images/img_about.png"
+                  alt=""
+                  width="450"
+                  height="450"
+                />
+                <div class="about__decsr">
+                  <p class="about__text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis nulla rem
+                  </p>
+                </div>
+              </div>
             </li>
-            <li class="portfolio__item">
-              <img
-                class="portfolio__img"
-                src="./images/portfolio3.png"
-                alt=""
-                width="350"
-                height="350"
-              />
-            </li>
-            <!-- <li><img src="" alt="" /></li>
-            <li><img src="" alt="" /></li>
-            <li><img src="" alt="" /></li> -->
           </ul>
         </div>
-      </div>
-    </section>
-  </main>
+      </section>
 
-  <!-- ----------------------------------------------------------------------- -->
-  <!--                                 Footer                                 -->
-  <!-- ----------------------------------------------------------------------- -->
+      <!-- ----------------------------------------------------------------------- -->
+      <!--                                  SHOP                                   -->
+      <!-- ----------------------------------------------------------------------- -->
+      <section id="2" class="section shop__section">
+        <div class="container container--white shop">
+          <img class="shop__img" src="./images/shop.png" alt="" width="350" />
+          <div class="shop__wrap">
+            <h2 class="section-title">Lorem ipsum dolor sit amet.</h2>
+            <p class="section-text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, eius.
+            </p>
+            <a href="./shop.html" class="button">Перейти в магазин</a>
+          </div>
+        </div>
+      </section>
 
-  <footer class="footer">
-    <div class="container container--white footer__wrap">
-            <ul class="social">
-              <li class="social__item">
-                <a class="social__link--dark" href="">
-                  <svg class="social__icon--white" width="20" height="20">
-                    <use href="./images/icons.svg#icon-instagram"></use>
-                  </svg>
-                </a>
+      <!-- ----------------------------------------------------------------------- -->
+      <!--                                  PRICE                                  -->
+      <!-- ----------------------------------------------------------------------- -->
+
+      <!-- Секція Price -->
+      <section id="3" class="section">
+        <div class="container price container--light">
+          <h2 class="section-title">Услуги и цены</h2>
+          <ul class="price-list">
+            <li class="price-list-item">
+              <span class="price-inner-title">Брови</span>
+              <ul class="price-inner-list">
+                <li class="price-inner-item">
+                  <span class="price-inner-desc">Моделирование и <br />окрашивание</span>
+                  <span class="price-inner-cost">250 грн</span>
+                </li>
+                <li class="price-inner-item">
+                  <span class="price-inner-desc">Моделирование без <br />окрашивания</span>
+                  <span class="price-inner-cost">200 грн</span>
+                </li>
+                <li class="price-inner-item">
+                  <span class="price-inner-desc">Ламинирование и <br />окрашивание</span>
+                  <span class="price-inner-cost">400 грн</span>
+                </li>
+                <li class="price-inner-item">
+                  <span class="price-inner-desc">Ламинирование без <br />окрашивания</span>
+                  <span class="price-inner-cost">300 грн</span>
+                </li>
+              </ul>
+              <span class="price-inner-title">Ресницы</span>
+              <ul class="price-inner-list">
+                <li class="price-inner-item">
+                  <span class="price-inner-desc">Ламинирование и <br />окрашивание</span>
+                  <span class="price-inner-cost">500 грн</span>
+                </li>
+                <li class="price-inner-item">
+                  <span class="price-inner-desc">Окрашивание</span>
+                  <span class="price-inner-cost">80 грн</span>
+                </li>
+              </ul>
+            </li>
+            <li class="price-list-item">
+              <span class="price-inner-title">Дополнительные услуги</span>
+              <ul class="price-inner-list">
+                <li class="price-inner-item">
+                  <span class="price-inner-desc">Парафинотерапия ручек</span>
+                  <span class="price-inner-cost">100 грн</span>
+                </li>
+                <li class="price-inner-item">
+                  <span class="price-inner-desc"
+                    >Удаление волос сахарной пастой <br />в области верхней губы (усики)</span
+                  >
+                  <span class="price-inner-cost">50 грн</span>
+                </li>
+              </ul>
+              <span class="price-inner-title">Скидки</span>
+              <ul class="price-inner-list">
+                <li class="price-inner-item">
+                  <span class="price-inner-desc">ко Дню Рождения</span>
+                  <span class="price-inner-cost">10%</span>
+                </li>
+                <li class="price-inner-item">
+                  <span class="price-inner-desc">отметка в Stories</span>
+                  <span class="price-inner-cost">5%</span>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- ----------------------------------------------------------------------- -->
+      <!--                            ORDER                             -->
+      <!-- ----------------------------------------------------------------------- -->
+      <section class="section">
+        <div class="container container--semi-light order">
+          <h2 class="section-title">Lorem ipsum dolor sit amet.</h2>
+          <button data-modal-open class="button button--dark" type="button">
+            Записатся на услугу
+          </button>
+        </div>
+      </section>
+
+      <!-- ----------------------------------------------------------------------- -->
+      <!--                                  PORTFOLIO                                  -->
+      <!-- ----------------------------------------------------------------------- -->
+      <section id="4" class="section">
+        <div class="container container--light">
+          <h2 class="section-title">Примеры работ</h2>
+          <div class="portfolio__wrap">
+            <ul class="portfolio__list">
+              <li class="portfolio__item">
+                <img class="portfolio__img" src="./images/portfolio1.png" alt="" width="360" />
               </li>
-              <li class="social__item">
-                <a class="social__link--dark" href="">
-                  <svg class="social__icon--white" width="20" height="20">
-                    <use href="./images/icons.svg#icon-twitter"></use>
-                  </svg>
-                </a>
+
+              <li class="portfolio__item">
+                <img class="portfolio__img" src="./images/portfolio2.png" alt="" width="360" />
               </li>
-              <li class="social__item">
-                <a class="social__link--dark" href="">
-                  <svg class="social__icon--white" width="20" height="20">
-                    <use href="./images/icons.svg#icon-facebook"></use>
-                  </svg>
-                </a>
+              <li class="portfolio__item">
+                <img class="portfolio__img" src="./images/portfolio3.png" alt="" width="360" />
               </li>
-              <li class="social__item">
-                <a class="social__link--dark" href="">
-                  <svg class="social__icon--white" width="20" height="20">
-                    <use href="./images/icons.svg#icon-linkedin"></use>
-                  </svg>
-                </a>
+              <!-- <li class="portfolio__item">
+              <img
+                class="portfolio__img"
+                src="./images/portfolio4.png"
+                alt=""
+                width="360"
+                
+              />
+            </li> -->
+              <li class="portfolio__item">
+                <img class="portfolio__img" src="./images/portfolio5.png" alt="" width="360" />
+                <!-- </li>
+               <li class="portfolio__item">
+              <img
+                class="portfolio__img"
+                src="./images/portfolio6.png"
+                alt=""
+                width="360"
+              
+              />
+            </li> -->
+              </li>
+
+              <li class="portfolio__item">
+                <img class="portfolio__img" src="./images/portfolio7.png" alt="" width="360" />
+              </li>
+              <li class="portfolio__item">
+                <img class="portfolio__img" src="./images/portfolio8.png" alt="" width="360" />
+              </li>
+              <li class="portfolio__item">
+                <img class="portfolio__img" src="./images/portfolio9.png" alt="" width="360" />
+              </li>
+              <li class="portfolio__item">
+                <img class="portfolio__img" src="./images/portfolio10.png" alt="" width="360" />
               </li>
             </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                                 Footer                                 -->
+    <!-- ----------------------------------------------------------------------- -->
+
+    <footer class="footer">
+      <div class="container container--white footer__wrap">
+        <ul class="social">
+          <li class="social__item">
+            <a class="social__link--dark" href="">
+              <svg class="social__icon--white" width="20" height="20">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link--dark" href="">
+              <svg class="social__icon--white" width="20" height="20">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link--dark" href="">
+              <svg class="social__icon--white" width="20" height="20">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link--dark" href="">
+              <svg class="social__icon--white" width="20" height="20">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
         <address class="address">
           <ul class="address__list">
             <li class="address__item">Петропавловская Борщаговка, ул. Мира 9</li>
             <li class="address__item">
-              <a class="address__link" href="tel:+380999999999">38 099 999 99 99</a> </li>
+              <a class="address__link" href="tel:+380999999999">38 099 999 99 99</a>
+            </li>
             <li class="address__item">
               <a class="address__link" href="mailto:email@email.com"></a>
-              email@email.com</li>
+              email@email.com
+            </li>
           </ul>
         </address>
       </div>
-    </div>
-  </footer>
+    </footer>
 
     <!-- ----------------------------------------------------------------------- -->
     <!--                                  Modal                                  -->
@@ -450,16 +460,22 @@
       </div>
     </div>
 
-
-  <!-- --------------------------------- JS ---------------------------------- -->
-  <script src="./js/modal.js"></script>
-  <script src="./js/mobile.js"></script>
-  <script src="./js/header-scroll.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script>$('.portfolio__list').slick({
-  infinite: true,
-  slidesToShow: 3,
-  slidesToScroll: 3
-});</script>
-</body>
+    <!-- --------------------------------- JS ---------------------------------- -->
+    <script src="./js/modal.js"></script>
+    <script src="./js/mobile.js"></script>
+    <script src="./js/header-scroll.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+      integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./js/slick.js"></script>
+  </body>
+</html>
